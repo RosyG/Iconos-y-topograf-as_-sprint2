@@ -1,0 +1,30 @@
+header {
+  border: 1px solid black;
+  background-color: #33C0FF;
+  height: 70px;
+  width: 100%;
+
+}
+li {
+
+  display: inline-block;
+  list-style: none;
+  padding: 10px 50px;
+}
+
+li:hover {
+  background-color: pink;
+  color: white;
+}
+#first_item {
+/* IDEA: Para subir la fuente desde Google Fonts 1. pegar link en head de html. 2. pegar en css la fuente q viene en la pág del google fonts--->https://fonts.google.com/?query=m&category=Display&selection.family=Poiret+One */
+  font-family: 'Poiret One', cursive;
+}
+
+#second_item {
+  font-family: 'Lobster Two', cursive;
+
+}
+
+/* IDEA: <i class="fa fa-paper-plane-o" aria-hidden="true"></i> ---del icono
+<i class="fa fa-paper-plane-o fa-2x" aria-hidden="true"></i> ---- para los iconos medianos*/
